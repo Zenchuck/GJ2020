@@ -50,4 +50,9 @@ public class CharacterLocomotion : MonoBehaviour
         // Update position to agent position
         transform.position = agent.nextPosition;
     }
+
+    public float ReturnVelocity()
+    {
+        return velocity.y;
+    }
 }
